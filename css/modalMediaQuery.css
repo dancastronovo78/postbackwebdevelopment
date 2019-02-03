@@ -1,0 +1,66 @@
+@media only screen and (max-width: 600px){
+.close, .close1a, .close2, .close2a, .close3, .close3a, .close4, .close4a {
+    color: #377A7A;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 33%;
+    z-index: 8000;
+}
+}
+
+@media only screen and (max-width: 488px){
+#myModal1a .modal-header, #myModal3a .modal-header {
+    padding: 2px 16px;
+    margin-bottom: 20%;
+}
+.close, .close1a, .close2, .close2a, .close3, .close3a, .close4, .close4a {
+    color: #377A7A;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 29%;
+    z-index: 8000;
+}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+      video{
+        width: 50%;
+        margin: 6% auto;
+      }
+   
+
+}
+
+@media only screen 
+  and (min-device-width: 411px) 
+  and (max-device-width: 823px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+       video{
+        width: 50%;
+        margin: 6% auto;
+      }
+
+}
+
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+       video{
+           width: 57%;
+            margin: 10% auto;
+      }
+
+}
+
+/*    width: 57%;
+    margin: 5% auto;*/

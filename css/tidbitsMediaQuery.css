@@ -1,0 +1,166 @@
+
+/*----------- Projects Media Queries ----------------------------------------*/
+@media only screen and (max-width: 1200px) {
+    .cardH2 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    
+    div#col1, div#col2, div#col3, div#col4a {
+        display: block !important;
+    }    
+    
+    
+    #mainContainer {
+        margin-top: 16%;
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 10%;
+    }
+    .col4 {
+        float: left;
+        width: 100%;
+        height: 265px;
+        min-height: 0;
+    }
+   
+    
+    #col1, #col2, #col3, #col4a {
+        border: solid thin white;
+        padding: 0;
+    }
+    
+    #col4 {
+        height: 375px;
+    }
+    
+    #col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+        margin-top: 0;
+        padding-top: 3%;
+    }
+    
+    footer {
+        background-color: white;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 13.4%;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 1%;
+        color: #377A7A;
+    }
+    small {
+    position: relative;
+    bottom: -70%;
+    margin: 0;
+}
+}
+
+/*----------- Projects Media Queries ----------------------------------------*/
+@media only screen and (max-width:900Px) {
+    #mainContainer {
+        margin-top: 23%;
+}
+}
+
+@media only screen and (max-width: 600px){
+    #mainContainer {
+    margin-top: 35%;
+}
+#titleH1 {
+    margin-top: 7%;
+}
+
+#col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+       font-size: 0.6em;
+    }
+
+footer{
+  height: 8.4%  
+}
+}
+
+
+
+@media only screen and (max-width: 450px){
+#titleH1 {
+    margin-top: 12%;
+    font-size: 1.2em;
+}
+
+}
+
+@media only screen and (max-width: 320px){
+#titleH1 {
+    margin-top: 12%;
+    font-size: 1.2em;
+}
+#col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+       font-size: 0.4em;
+    }
+
+}
+
+
+
+
+ /* Landscape
+*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2){
+   .cardH2 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    
+    div#col1, div#col2, div#col3, div#col4a {
+        display: block !important;
+    }    
+    
+    #mainContainer {
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 10%;
+    }
+    .col4 {
+        float: left;
+        width: 100%;
+        height: 265px;
+        min-height: 0;
+    }
+    #col1, #col2, #col3, #col4a {
+        border: solid thin white;
+        padding: 0;
+    }
+    
+    #col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+        margin-top: 0;
+    }
+    footer {
+        background-color: white;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 13.4%;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 1%;
+        color: #377A7A;
+    }
+    small {
+    position: relative;
+    bottom: -70%;
+    margin: 0;
+}
+}

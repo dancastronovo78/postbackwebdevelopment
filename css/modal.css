@@ -1,0 +1,163 @@
+/*W3Schools Modal https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_bottom*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 7000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 2s;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.9) /*rgba(55,122,122, 0.95) #377A7A*/; 
+    border: solid medium #377A7A;
+    width: 80%;
+    height: 80%;
+    margin: 5%  10% 0 10%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+    overflow: auto; /* Enable scroll if needed */
+    box-shadow: 5px 5px 2px rgba(0,0,0,0.2);
+}
+
+div.modal-content p{
+    color: black;
+}
+
+div.modalVid{
+    position: relative;
+    width: 100%;
+    float: left;
+margin-top: 1%;
+}
+
+div.modalPara{
+    position: relative;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+
+div.modalPara p, li{
+     font-size: 1em;
+    font-family: Muli;
+    padding-left: 1%;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+    color: black;
+    padding: 0.5%;
+    margin-left: 1.5%;
+}
+
+div.modalPara ul li{
+  list-style: none;
+    color: black;
+     font-size: 0.8em;
+    font-family: Muli;
+    padding-left: 3%;
+    text-align: left;
+    line-height: 1.2em;
+}
+
+video{
+    width: 74%;
+    margin: 0 auto;
+    height: 74%;
+}
+
+/* myBtn*/
+#myBtn, #myBtn1a, #myBtn2, #myBtn2a, #myBtn3,  #myBtn3a, #myBtn4, #myBtn4a {
+   display: none;
+}
+    
+#myBtn, #myBtn1a, #myBtn2, #myBtn2a, #myBtn3, #myBtn3a, #myBtn4, #myBtn4a {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow:  5px 5px 5px rgba(0,0,0, 0.5);
+     transition: all .2s ease-in;
+}
+
+#myBtn:hover,  #myBtn1a:hover, #myBtn2:hover, #myBtn2a:hover, #myBtn3:hover, #myBtn3a:hover, #myBtn4:hover, #myBtn4a:hover {
+    background: #377A7A;
+    color: black;
+        transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+/* The Close Button */
+.close, .close1a, .close2, .close2a, .close3, .close3a, .close4, .close4a {
+    color: #377A7A;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 36%;
+        z-index: 8000;
+}
+
+.close:hover, .close:focus, .close1a:hover, .close1a:focus, .close2:hover, .close2:focus,
+.close2a:hover, .close2a:focus, .close3:hover, .close3:focus, .close3a:hover, .close3a:focus, .close4:hover, .close4:focus, .close4a:hover, .close4a:focus  {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    color: #377A7A;
+    height: 15%;
+    font-family: Muli;
+}
+
+.modal-body, .modal-body2, .modal-body3, .modal-body4 {
+    padding: 2px 16px;
+    height: 70%;
+}
+.modal-footer {
+    padding: 2px 16px;
+    color: #377A7A;
+    height: 10%;
+     font-family: Muli;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}

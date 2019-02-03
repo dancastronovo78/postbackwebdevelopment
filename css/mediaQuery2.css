@@ -1,0 +1,20 @@
+
+
+/*-------------------- Media Queries ------------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+#titleH1 {
+    margin: 5% auto;
+    font-size: 4.8em;
+}
+p{
+    font-size: 0.4em;
+}
+}
+
+/*-------------------- Media Queries ------------------------------------------------------------------------*/
+@media only screen and (max-width: 900px) {
+#titleH1 {
+    margin: 13% auto;
+    font-size: 3.8em;
+}
+}

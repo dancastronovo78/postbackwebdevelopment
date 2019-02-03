@@ -1,0 +1,73 @@
+/*----------- About Media Queries ----------------------------------------*/
+@media only screen and (max-width: 1200px) {
+#mainContainer {
+    margin-top: 16%;
+  position: relative;
+    display: inline-block;
+    padding: 2%
+}
+#col1, #col2{
+    width: 100%;
+}
+#col2{
+    padding-bottom: 15%;
+}
+}
+
+/*----------- Connect Media Queries ----------------------------------------*/
+@media only screen and (max-width:900px) {
+    #mainContainer {
+         margin-top: 23%;
+    position: relative;
+    display: inline-block;
+    padding: 2%
+}
+#col1, #col2{
+    width: 100%;
+}
+#col2{
+    padding-bottom: 15%;
+}
+}
+
+@media only screen and (max-width: 600px){
+    #mainContainer {
+    margin-top: 35%;
+    padding: 1%;
+}
+#titleH1 {
+    margin-top: 7%;
+}
+
+footer{
+  height: 8.4%  
+}
+}
+@media only screen and (max-width: 450px){
+#titleH1 {
+    margin-top: 12%;
+    font-size: 1.2em;
+}
+}
+
+
+
+
+
+ /* Portrait*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2){
+  #mainContainer {
+  position: relative;
+    display: inline-block;
+    padding: 2%
+}
+#col1, #col2{
+    width: 100%;
+}
+#col2{
+    padding-bottom: 15%;
+}
+ }

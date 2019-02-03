@@ -1,0 +1,272 @@
+
+/*----------- Projects Media Queries ----------------------------------------*/
+@media only screen and (max-width: 1200px) {
+    .cardH2 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: -1%;
+    }
+    
+     #col1, #col2, #col3, #col4{
+        display: none;
+    }
+    
+    div#col1a, div#col2a, div#col3a, div#col4a {
+        display: block !important;
+    }    
+     div#col1a:hover {
+        background-image: url(../images/webSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+    div#col2a:hover{
+        background-image: url(../images/vidSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+  div#col3a:hover{
+        background-image: url(../images/hangOverSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+   div#col4a:hover {
+        background-image: url(../images/eLearningSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+    #navDiv {
+        width: 100%;
+        top: -51px;
+        position: relative;
+    }
+    
+    #mainContainer {
+        margin-top: 16%;
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 10%;
+    }
+    .col4 {
+        float: left;
+        width: 100%;
+        height: 265px;
+        min-height: 0;
+    }
+    .container {
+        margin: 0% 1% 0 0;
+    }
+    .expandImga {
+        width: 4%;
+        padding: 1% 1% 0 0;
+    }
+    
+    #col1, #col1a, #col2, #col2a, #col3, #col3a, #col4, #col4a {
+        border: solid thin white;
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    #col4a {
+        height: 375px;
+    }
+    #col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+        margin-top: 0;
+    }
+    
+    .emptyDiv1a, .emptyDiv2a, .emptyDiv3a, .emptyDiv4a{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    button {
+       margin-top: 2%; 
+    }
+    
+    footer {
+        background-color: white;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 13.4%;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 1%;
+        color: #377A7A;
+    }
+    small {
+    position: relative;
+    bottom: -70%;
+    margin: 0;
+}
+}
+
+/*----------- Projects Media Queries ----------------------------------------*/
+@media only screen and (max-width:900Px) {
+    #mainContainer {
+        margin-top: 23%;
+}
+.expandImga {
+    width: 6%;
+    padding: 1% 1% 0 0;
+}
+}
+
+@media only screen and (max-width: 600px){
+    #mainContainer {
+    margin-top: 35%;
+}
+#titleH1 {
+    margin-top: 7%;
+}
+
+.expandImga {
+    width: 10%;
+    padding: 2% 2% 0 0;
+}
+
+footer{
+  height: 8.4%  
+}
+}
+
+
+
+@media only screen and (max-width: 450px){
+#titleH1 {
+    margin-top: 12%;
+    font-size: 1.2em;
+}
+}
+
+
+
+
+ /* Portrait
+*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2){
+   .cardH2 {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin: -1%;
+    }
+    
+     #col1, #col2, #col3, #col4{
+        display: none;
+    }
+    
+    div#col1a, div#col2a, div#col3a, div#col4a {
+        display: block !important;
+    }    
+     div#col1a:hover {
+        background-image: url(../images/webSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+    div#col2a:hover{
+        background-image: url(../images/vidSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+  div#col3a:hover{
+        background-image: url(../images/hangOverSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+   div#col4a:hover {
+        background-image: url(../images/eLearningSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+    #mainContainer {
+        position: relative;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 10%;
+    }
+    .col4 {
+        float: left;
+        width: 100%;
+        height: 265px;
+        min-height: 0;
+    }
+    .container {
+        margin: 0% 1% 0 0;
+    }
+    .expandImga {
+        width: 4%;
+        padding: 1% 1% 0 0;
+    }
+    
+    #col1, #col1a, #col2, #col2a, #col3, #col3a, #col4, #col4a {
+        border: solid thin white;
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    #col4a {
+        height: 375px;
+    }
+    #col1 p.card1, #col2 p.card2, #col3 p.card3, #col4 p.card4 {
+        margin-top: 0;
+    }
+    
+    .emptyDiv1a, .emptyDiv2a, .emptyDiv3a, .emptyDiv4a{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    button {
+       margin-top: 2%; 
+    }
+    
+    footer {
+        background-color: white;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 13.4%;
+        text-align: center;
+        letter-spacing: 5px;
+        padding: 1%;
+        color: #377A7A;
+    }
+    small {
+    position: relative;
+    bottom: -70%;
+    margin: 0;
+}
+}

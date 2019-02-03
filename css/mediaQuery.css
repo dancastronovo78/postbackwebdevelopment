@@ -1,0 +1,281 @@
+
+
+/*-------------------- Media Queries ------------------------------------------------------------------------*/
+@media only screen and (max-width: 1245px) {
+        #navDiv {
+        margin-left: 45%;
+    }
+
+    #mainContainer {
+        margin-top: 16%;
+    }
+    
+  #titleH1 h1.typing {
+               /* margin: 13% 5%;*/
+                font-size: 1.5em;
+            }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 1055px) {
+    
+    header {
+        height: 9%;
+        background-color: rgba(255,255,255,0.3);
+        margin-bottom: 10%;
+    }
+                h2{
+        font-size: 0.6em;
+    }
+    
+    #navDiv{
+      width: 100%;
+    top: -61px;
+    position: relative;
+    }
+    
+    .dropdown-content a{
+        padding: 2% 0 2% 4%;
+    }
+    
+   /* #titleH1 h1.typing {
+                margin: 16% 5%;
+            }*/
+    
+    #mainContainer {
+        position: relative;
+        margin-top: 0;
+        top: 248px;
+    }
+    .container {
+        margin: 1% 1% 0 0;}
+    
+    .col4{
+        width: 50%;
+        height : 250px;
+        border: solid white thin;
+        background-color: #377A7A;
+        color: black;
+    }
+    
+    footer{
+        background-color:rgba(255,255,255,0.3);
+    }
+    
+    #col1, #col2, #col3, #col4{
+    transition: none;
+    }
+
+    #col1:hover, #col2:hover, #col3:hover, #col4:hover{
+        transform: none;
+        box-shadow: none;
+        pointer-events: none;
+        opacity: 1;
+    }
+    
+    #col1, #col2, #col3, #col4{
+        display: none;
+    }
+    
+    div#col1a, div#col2a, div#col3a, div#col4a {
+        display: block !important;
+    }
+    
+     div#col1a:hover {
+        background-image: url(../images/webSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+    div#col2a:hover{
+        background-image: url(../images/vidSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+  div#col3a:hover{
+        background-image: url(../images/hangOverSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+   div#col4a:hover {
+        background-image: url(../images/eLearningSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 1024px){
+   #titleH1 h1.typing {
+               /*  margin: 18% 2%;*/
+                font-size: 1.4em;
+            }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 924px){
+    #titleH1 h1.typing {
+               /* margin: 20% 2%;*/
+                font-size: 1.2em;
+            }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 900px){
+    #titleH1 h1.typing {
+               /* margin: 22% 0;*/
+                font-size: 1.15em;
+                
+            }
+            #titleH1 {
+                top: 25%;
+            }
+            h2{
+        font-size: 0.4em;
+    }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 768px)  {
+ 
+    header {
+        height: 9%;
+    background-color: rgba(255,255,255,0.3);
+      margin-bottom: 10%;
+    }
+    
+    #navDiv{
+      width: 100%;
+    top: -51px;
+    position: relative;
+    }
+    
+    #mainContainer {
+        position: relative;
+        margin-top: 0;
+        top: 154px;
+    }
+    
+    .col4{
+        width: 100%;
+        height : 250px;
+        border: solid white thin;
+        background-color: #377A7A;
+    }
+    
+    footer{
+        background-color:rgba(255,255,255,0.3);
+    }
+    
+    #col1, #col2, #col3, #col4{
+    transition: none;
+    }
+
+      div#col1a:hover {
+        background-image: url(../images/webSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    div#col2a:hover{
+        background-image: url(../images/vidSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+  div#col3a:hover{
+        background-image: url(../images/hangOverSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+   div#col4a:hover {
+        background-image: url(../images/eLearningSml.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+         color: black;
+    }
+    
+     #titleH1 h1.typing {
+               /* margin: 30% 0;*/
+                font-size: 1em;
+            }
+   .expandImga{
+    position: relative;
+    width: 4%;
+    float: right;
+}
+    
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 658px)  { 
+    
+    #titleH1 h1.typing {
+                /*margin: 35% 0 0 1%;*/
+                font-size: 0.8em;
+            }
+    
+    .dropdown-content a{
+        padding: 3% 0 1% 4%;
+    }
+    
+}
+
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 575px)  { 
+    
+   #titleH1 h1.typing {
+                /* margin: 45% 0 0 2%;*/
+                font-size: 0.6em;
+            }
+    
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 516px)  { 
+    
+   #titleH1 h1.typing {
+                /* margin: 55% 0 0 2%;*/
+                font-size: 0.6em;
+            }
+    
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 450px)  { 
+    
+    #titleH1 h1.typing {
+                /*margin: 60% 0 0 2%;*/
+                font-size: 0.5em;
+            }
+    
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 411px)  { 
+    
+   /* #titleH1{
+        margin-top: 13%;
+    }*/
+    
+}
+    
+    

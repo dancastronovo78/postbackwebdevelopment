@@ -1,0 +1,56 @@
+
+
+/*-------------------- Media Queries ------------------------------------------------------------------------*/
+@media only screen and (max-width: 1245px) {
+        #navDiv {
+        margin-left: 45%;
+    }
+}
+
+/*-------------------- Media Queries ------------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px) {
+#navDiv {
+        width: 100%;
+        top: -51px;
+        position: relative;
+    }
+    .container {
+    margin: 1% 1% 0 0;
+}
+
+.dropdown-content a {
+    padding: 1% 0 0 4%;
+}
+
+}   
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 1055px) {
+    #navDiv{
+      width: 100%;
+    top: -61px;
+    position: relative;
+    }
+    
+    .dropdown-content a{
+        padding: 2% 0 2% 4%;
+    }
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 768px)  {
+    #navDiv{
+      width: 100%;
+    top: -51px;
+    position: relative;
+    }
+    
+}
+
+/*-----------------------------------------*/
+@media only screen and (max-width: 658px)  { 
+    .dropdown-content a{
+        padding: 3% 0 1% 4%;
+    }
+    
+} 

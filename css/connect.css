@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding-bottom: 1%;
+    z-index: 1000;
+}
+
+ #titleH1{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.6em;
+font-weight: bold;
+  font-family: Muli;
+  color:  #377A7A;
+      z-index: -1000;
+}
+
+#mainContainer {
+    margin-top: 11%;
+    position: fixed;
+    color: white;
+    width: 100%;
+    min-height: 100%;
+    /*background-color: #377A7A;*/
+    font-size: 1.6em;
+    letter-spacing: 10px;
+    background-image: url('../images/workTeam.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col4{
+   display:block;
+}
+
+#col1, #col2 {
+    transition: all .7s ease-in;
+    font-family: Muli;
+    padding: 1%;
+    letter-spacing: 1.5px;
+    width: 50%;
+    float: left;
+}
+
+#col2 {
+    border-left: white thin white;
+}
+
+.emptyDiv1, .emptyDiv2, .emptyDiv3, .emptyDiv4{
+    margin: 0;
+}
+
+.cardH2, legend {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    margin: 0;
+    margin-bottom: 0.5%;
+}
+
+fieldset {
+    /* border-style: none; */
+}
+
+p.card {
+     font-size: 0.8em;
+     font-family: Muli;
+     margin: 4% 1%;
+     overflow-y: auto;
+}
+
+
+footer{
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 13.4%;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 1%;
+    color:  #377A7A;
+}
+
+#logoDiv {
+    display: inline-flex;
+    width: 24%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+}
+
+
+#logoImg {
+    display: inline-flex;
+}
+
+
+.content {
+  position:fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.contentMain {
+  position: fixed;
+   bottom: 0;
+    background: rgba(0, 0, 0, 0.01);
+    color: #f1f1f1;
+   min-width: 100%; 
+    min-height: 100%;
+}
+
+small{
+        position: relative;
+    bottom: -70%;
+    margin: 0;
+}
+
+video{
+    width: 58%;
+    margin-left: 21%;
+    box-shadow:  15px 15px 25px rgba(0,0,0, 0.2);
+        border: solid white;
+    border-radius: 10px;
+}
+
+input#fname, input#lname{
+    font-family: Muli;
+    float: left;
+    width: 41%;
+    margin: 1% 0 5% 6%;
+    height: 2.5em;
+    font-size: 0.7em;
+    padding-left: 2%;
+}
+
+input#email {
+    width: 88%;
+    font-family: Muli;
+    float: left;
+    margin: 0 0 0 6%;
+    height: 2.5em;
+    font-size: 0.7em;
+    padding-left: 2%;
+}
+
+textarea{
+    font-size: 0.7em;
+    padding-left: 2%;
+    font-family: Muli;
+    float: left;
+    margin: 5% 0 5% 6%;
+    height: 7em;
+    width: 88%;
+    overflow-y: scroll;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+
+#myBtn {
+   width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: lightgrey;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+    transition: all .2s ease-in;
+    float: left;
+    margin: 0 0 0 6%;
+}
+
+#myBtn:hover {
+    background:white;
+    color:  #377A7A;
+        transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
