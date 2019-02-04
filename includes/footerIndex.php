@@ -1,0 +1,1 @@
+<small>&copy; Copyright 2018 Postback<br>typing effect made possible by the amazing <a href="https://mattboldt.com/" target="_blank">Matt Boldt</a>!</small>
